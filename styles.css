@@ -1,20 +1,20 @@
-/*4*/
+/* 4 */
 h1 {
     font-size: 30px;
     text-transform: uppercase;
     }
 
-/*5*/
+/* 5 */
     p::first-letter {
         text-transform: uppercase;
     }
 
-/*6*/
+/* 6 */
     a:hover {
        text-decoration: none;
     }
 
-/*7*/
+/* 7 */
 h1,
 h2,
 h3,
@@ -24,15 +24,48 @@ h6 {
     text-align: center;
 }
 
-/*ct 3 4 e 5*/
+/* ct 3 4 e 5 */
 #primary-list {
     list-style: none;
     text-align: center;
 }
 
-/*ct 4*/
+/* ct 4 */
 img {
     display: block;
     margin: auto;
     max-width: 150%;
+}
+
+/* pd 1 */
+.banner {
+    height: 300px;
+    width: 100%;
+    background-image: url("https://eshop-api.avell.com.br/storage/resize/contain/_x500/5/catalog/productMedia/67ffbb2c1926b5228/691633eeabe6f5120.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* pd 2 */
+.hide {
+    display: none;
+}
+
+/*p 3 */
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+/* all 1 */
+body {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* all 2 */
+a:hover {
+    opacity: 0.5;
 }
