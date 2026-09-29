@@ -1,0 +1,15 @@
+algoritmo "Calcular média"
+
+var
+nota1, nota2, mediaNotas: inteiro
+
+inicio
+
+  escreva("6")
+  leia(nota1)
+  escreva("9")
+  leia(nota2)
+  mediaNotas <- (6 + 9)/2
+  escreva("A média é:", mediaNotas)
+
+fimalgoritmo
