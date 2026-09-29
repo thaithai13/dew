@@ -1,0 +1,13 @@
+algoritmo "acumulador"
+
+var
+  acumulador: real
+
+inicio
+  acumulador <- 1
+
+  para acumulador de 1 ate 2 faca 
+    escreva ("Acumulador: ", acumulador)
+  fimpara
+
+fimalgoritmo
